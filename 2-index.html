@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Click Store | متجرك الإلكتروني</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+  body { background: #f6f7fb; color: #1f2430; }
+  header { background: #7c3aed; color: #fff; padding: 20px 8%; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 24px; }
+  nav a { color: #fff; text-decoration: none; margin-right: 18px; font-size: 15px; }
+  .hero { text-align: center; padding: 70px 8%; background: linear-gradient(135deg, #7c3aed, #a855f7); color: #fff; }
+  .hero h2 { font-size: 36px; margin-bottom: 12px; }
+  .hero p { font-size: 18px; opacity: .9; }
+  .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 40px 8%; }
+  .card { background: #fff; border-radius: 14px; padding: 22px; text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+  .card img { width: 100%; border-radius: 10px; margin-bottom: 12px; }
+  .card h3 { font-size: 18px; margin-bottom: 6px; }
+  .price { color: #7c3aed; font-weight: bold; font-size: 20px; margin: 8px 0; }
+  .btn { background: #7c3aed; color: #fff; border: none; padding: 10px 22px; border-radius: 8px; cursor: pointer; font-size: 15px; }
+  footer { text-align: center; padding: 24px; background: #1f2430; color: #fff; margin-top: 30px; font-size: 14px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Click Store</h1>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#products">المنتجات</a>
+      <a href="#">تواصل معنا</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>كل اللي محتاجه في مكان واحد</h2>
+    <p>تسوق أحدث المنتجات بأفضل الأسعار وتوصيل سريع لباب البيت</p>
+  </section>
+  <section class="products" id="products">
+    <div class="card">
+      <img src="https://placehold.co/400x300/7c3aed/ffffff?text=سماعات" alt="سماعات لاسلكية">
+      <h3>سماعات لاسلكية</h3>
+      <p class="price">450 ج.م</p>
+      <button class="btn">أضف للسلة</button>
+    </div>
+    <div class="card">
+      <img src="https://placehold.co/400x300/a855f7/ffffff?text=ساعة+ذكية" alt="ساعة ذكية">
+      <h3>ساعة ذكية</h3>
+      <p class="price">1200 ج.م</p>
+      <button class="btn">أضف للسلة</button>
+    </div>
+    <div class="card">
+      <img src="https://placehold.co/400x300/6d28d9/ffffff?text=حقيبة+ظهر" alt="حقيبة ظهر">
+      <h3>حقيبة ظهر</h3>
+      <p class="price">650 ج.م</p>
+      <button class="btn">أضف للسلة</button>
+    </div>
+  </section>
+  <footer>Click Store &copy; 2026 - اتعمل بحب بالـ AI</footer>
+</body>
+</html>
